@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Alle to | Ordensplan</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        var meldingArr1 = [];
+    </script>
+</head>
+<!--onload kjører script når body er lastet inn-->
+
+<body onload="sideOnLoad()">
+    <div id="hovedContainer">
+        <!--hovedcontainer er delt opp i to, venstreboks og høyreboks-->
+        <div id="venstreBoks">
+            <div id="clock"></div>
+            <div class="avganger">
+                <h1>Oslo S - Eidsvoll Stasjon</h1>
+                <div id="togTider1"></div>
+                <h1>Heimdalsgata</h1>
+                <div id="togTider2"></div>
+                <h1>Schous Plass</h1>
+                <div id="togTider3"></div>
+                <div id="togTider4"></div>
+            </div>
+        </div>
+
+        <div id="hoyreBoks">
+            <!--Vindu for output meldinger-->
+            <div id="konsollVindu">
+                <div id="botContainer">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/queries.js"></script>
+</body>
+
+</html>
